@@ -1,0 +1,26 @@
+{
+  "generado_utc": "2026-07-19T23:39:15.739946+00:00",
+  "juegos": {
+    "melate": {
+      "concurso": 4240,
+      "bolsa": 30700000,
+      "fecha": "17/07/2026"
+    },
+    "revancha": {
+      "concurso": 4240,
+      "bolsa": 25300000,
+      "fecha": "17/07/2026"
+    },
+    "revanchita": {
+      "concurso": 4240,
+      "bolsa": 90000000,
+      "fecha": "17/07/2026"
+    },
+    "melate_retro": {
+      "concurso": 1652,
+      "bolsa": 18000000,
+      "fecha": "18/07/2026"
+    }
+  },
+  "errores": {}
+}
