@@ -26,10 +26,19 @@ def ultima_fila(url: str) -> dict:
     if not filas:
         raise ValueError("CSV vacío")
     fila = max(filas, key=lambda f: int(f["CONCURSO"]))
+
+    # Columnas de números ganadores: todo lo que no sea NPRODUCTO/CONCURSO/BOLSA/FECHA.
+    # Games usan prefijo R (Melate/Revancha/Revanchita) o F (Melate Retro), mismo orden.
+    campos_numero = [k for k in fila.keys() if k not in ("NPRODUCTO", "CONCURSO", "BOLSA", "FECHA")]
+    numeros = [int(fila[k]) for k in campos_numero[:6]]
+    adicional = int(fila[campos_numero[6]]) if len(campos_numero) > 6 and fila[campos_numero[6]] not in ("", None) else None
+
     return {
         "concurso": int(fila["CONCURSO"]),
         "bolsa": int(fila["BOLSA"]),
         "fecha": fila["FECHA"],
+        "numeros_ganadores": numeros,
+        "adicional": adicional,
     }
 
 
