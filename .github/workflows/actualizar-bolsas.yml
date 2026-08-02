@@ -5,6 +5,13 @@ on:
     # 8:50am hora CDMX (UTC-6), los días con sorteo esa noche:
     # dom/mié/vie = Melate+Revancha+Revanchita, mar/sáb = Melate Retro.
     - cron: "50 14 * * 0,2,3,5,6"
+    # 11:00pm hora CDMX la MISMA noche del sorteo (21:00 CDMX), para que el
+    # resultado ya esté listo cuando la rutina de verificación corra a las
+    # 11:30pm. 23:00 CDMX = 05:00 UTC del día siguiente (CDMX es UTC-6), por
+    # eso los días aquí van corridos +1 respecto a los de arriba:
+    # dom noche->lunes UTC, mar noche->miércoles UTC, mié noche->jueves UTC,
+    # vie noche->sábado UTC, sáb noche->domingo UTC.
+    - cron: "0 5 * * 0,1,3,4,6"
   workflow_dispatch: {}
 
 permissions:
