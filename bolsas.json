@@ -1,5 +1,5 @@
 {
-  "generado_utc": "2026-10-07T11:35:05.584309+00:00",
+  "generado_utc": "2026-10-07T20:12:58.138196+00:00",
   "juegos": {
     "melate": {
       "concurso": 4274,
@@ -44,18 +44,18 @@
       "adicional": null
     },
     "melate_retro": {
-      "concurso": 1674,
-      "bolsa": 5100000,
-      "fecha": "03/10/2026",
+      "concurso": 1675,
+      "bolsa": 5700000,
+      "fecha": "06/10/2026",
       "numeros_ganadores": [
-        10,
-        11,
-        13,
-        16,
-        19,
-        31
+        8,
+        25,
+        31,
+        37,
+        38,
+        39
       ],
-      "adicional": 20
+      "adicional": 23
     }
   },
   "errores": {}
