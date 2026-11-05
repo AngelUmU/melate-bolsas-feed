@@ -1,45 +1,45 @@
 {
-  "generado_utc": "2026-11-04T20:57:38.968300+00:00",
+  "generado_utc": "2026-11-05T12:57:12.218800+00:00",
   "juegos": {
     "melate": {
-      "concurso": 4286,
-      "bolsa": 37000000,
-      "fecha": "01/11/2026",
+      "concurso": 4287,
+      "bolsa": 40600000,
+      "fecha": "04/11/2026",
       "numeros_ganadores": [
-        11,
-        30,
-        41,
-        43,
-        51,
-        54
+        6,
+        18,
+        20,
+        23,
+        32,
+        41
       ],
-      "adicional": 26
+      "adicional": 10
     },
     "revancha": {
-      "concurso": 4286,
-      "bolsa": 22700000,
-      "fecha": "01/11/2026",
+      "concurso": 4287,
+      "bolsa": 25200000,
+      "fecha": "04/11/2026",
       "numeros_ganadores": [
-        1,
-        13,
-        29,
+        2,
+        24,
+        33,
         42,
-        45,
-        51
+        43,
+        52
       ],
       "adicional": null
     },
     "revanchita": {
-      "concurso": 4286,
-      "bolsa": 186300000,
-      "fecha": "01/11/2026",
+      "concurso": 4287,
+      "bolsa": 188200000,
+      "fecha": "04/11/2026",
       "numeros_ganadores": [
-        25,
+        30,
+        34,
         37,
-        39,
-        41,
-        46,
-        50
+        40,
+        44,
+        49
       ],
       "adicional": null
     },
